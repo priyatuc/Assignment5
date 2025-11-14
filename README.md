@@ -1,6 +1,6 @@
 # Quicksort Implementation and Analysis
 
-This repository contains implementations and analysis of the **Quicksort** algorithm in Python, including both **deterministic** and **randomized** versions. The project also provides a theoretical and empirical study of Quicksort's performance on different input types.
+This repository contains implementations and analysis of the **Quicksort** algorithm in Python, including both **deterministic** and **randomized** versions. You can **copy-paste the code** and run it directly in your local Python environment or Visual Studio Code.
 
 ---
 
@@ -21,10 +21,21 @@ This project includes:
 
 ---
 
-## **Implementation**
+## **Included Code**
 
-### Deterministic Quicksort
+Both sorting algorithms are included in this repository:
+
+- `quicksort_deterministic.py` – Deterministic Quicksort implementation
+- `quicksort_randomized.py` – Randomized Quicksort implementation
+
+You can **copy the code** into your local Python environment or Visual Studio Code and run it directly without additional dependencies.
+
+### Example Usage
 
 ```python
-def quicksort(arr):
-    # Implementation of deterministic Quicksort
+from quicksort_deterministic import quicksort
+from quicksort_randomized import randomized_quicksort
+
+arr = [10, 7, 8, 9, 1, 5]
+print("Deterministic Quicksort:", quicksort(arr.copy()))
+print("Randomized Quicksort:", randomized_quicksort(arr.copy()))
