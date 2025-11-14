@@ -25,8 +25,8 @@ This project includes:
 
 Both sorting algorithms are included in this repository:
 
-- `quicksort_deterministic.py` – Deterministic Quicksort implementation
-- `quicksort_randomized.py` – Randomized Quicksort implementation
+- `quickSort.py` – Deterministic Quicksort implementation
+- `randomizedQuickSort.py` – Randomized Quicksort implementation
 
 You can **copy the code** into your local Python environment or Visual Studio Code and run it directly without additional dependencies.
 
